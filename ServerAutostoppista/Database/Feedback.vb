@@ -4,10 +4,10 @@ Imports System.ComponentModel.DataAnnotations.Schema
 Imports System.Globalization
 Imports System.Data.Entity
 
-<Table("Feedbacks")> _
+<Table("Feedbacks")>
 Public Class Feedback
-    <Key()> _
-    <DatabaseGeneratedAttribute(DatabaseGeneratedOption.Identity)> _
+    <Key()>
+    <DatabaseGeneratedAttribute(DatabaseGeneratedOption.Identity)>
     Public Property Id As Integer
 
     Public Property PassengerName As String
@@ -18,3 +18,4 @@ Public Class Feedback
     Public Property DriverRating As Single
     Public Property DriverText As String
 End Class
+'Ciao
